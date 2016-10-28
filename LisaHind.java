@@ -1,10 +1,10 @@
 public abstract class LisaHind{
-	double koefitsent;
+	double lisamaks;
 	public LisaHind(double uusHind){
-		koefitsent=uusHind;
+		lisamaks=uusHind;
 	}
 	public abstract double omaHind();
 	public double MyygiHind(){
-		return omaHind()*koefitsent;
+		return omaHind()*lisamaks;
 	}
 }
